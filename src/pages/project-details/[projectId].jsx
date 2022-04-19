@@ -41,7 +41,7 @@ const ProjectDetailsLight = () => {
             }
         });
     }, [navbarRef]);
-
+    https://vixzogsl3gkguyuhhke3slvkbr5tsh36npfnfegtvpfxqmhve3ia:dev.azure.com/001-UniFPT/Viva/_git/viva-fe
     return (
         <LightTheme >
             <Navbar nr={navbarRef} lr={logoRef} theme="themeL" />
