@@ -40,16 +40,6 @@ const ProjectDetails2Header = ({ project } = {}) => {
               </p>
             </div>
           </div>
-          <div className="col-lg-3">
-            <div className="item mt-30">
-              <h6>Tags</h6>
-              <p>
-                <Link href="/works/works-dark">Minimal</Link> ,
-                <Link href="/works/works-dark">Modern</Link> ,
-                <Link href="/works/works-dark">Design</Link>
-              </p>
-            </div>
-          </div>
         </div>
       </div>
     </section>

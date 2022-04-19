@@ -48,6 +48,7 @@ const ProjectDetailsLight = () => {
             {project && <ProjectDetails2Header project={project} />}
             {/*<ProjectDetails2Header />*/}
             {project && <div className="container mx-auto text-center py-5">
+                <a href={project.topic.attachment}>Attachment</a>
                 <embed src={project.topic.attachment} type="application/pdf"
                        frameBorder="0"
                        scrolling="auto"
