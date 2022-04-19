@@ -41,6 +41,7 @@ const ProjectDetailsLight = () => {
             }
         });
     }, [navbarRef]);
+
     return (
         <LightTheme >
             <Navbar nr={navbarRef} lr={logoRef} theme="themeL" />
